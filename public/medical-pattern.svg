@@ -1,0 +1,41 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Professional Medical Pattern -->
+  <defs>
+    <linearGradient id="medGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.03" />
+      <stop offset="50%" style="stop-color:#14B8A6;stop-opacity:0.02" />
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:0.03" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#medGrad1)"/>
+  
+  <!-- Medical Cross Pattern -->
+  <g opacity="0.05">
+    <!-- Small crosses scattered -->
+    <g transform="translate(50, 50)">
+      <rect x="-8" y="-2" width="16" height="4" fill="#1D4ED8"/>
+      <rect x="-2" y="-8" width="4" height="16" fill="#1D4ED8"/>
+    </g>
+    
+    <g transform="translate(150, 120)">
+      <rect x="-6" y="-1.5" width="12" height="3" fill="#14B8A6"/>
+      <rect x="-1.5" y="-6" width="3" height="12" fill="#14B8A6"/>
+    </g>
+    
+    <g transform="translate(300, 80)">
+      <rect x="-10" y="-2.5" width="20" height="5" fill="#10B981"/>
+      <rect x="-2.5" y="-10" width="5" height="20" fill="#10B981"/>
+    </g>
+  </g>
+  
+  <!-- Subtle geometric shapes -->
+  <circle cx="80" cy="160" r="20" fill="#3B82F6" opacity="0.02"/>
+  <circle cx="320" cy="40" r="15" fill="#14B8A6" opacity="0.03"/>
+  <circle cx="200" cy="180" r="12" fill="#10B981" opacity="0.02"/>
+  
+  <!-- Flowing medical lines -->
+  <path d="M0,100 Q100,80 200,100 T400,100" stroke="#3B82F6" stroke-width="1" fill="none" opacity="0.08"/>
+  <path d="M0,120 Q150,100 300,120 T400,120" stroke="#14B8A6" stroke-width="1" fill="none" opacity="0.06"/>
+</svg>

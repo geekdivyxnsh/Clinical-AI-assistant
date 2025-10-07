@@ -1,27 +1,33 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
+import { useState } from "react";
+import MainLayout from "./components/layout/MainLayout";
+import PatientDashboardScreen from "./components/screens/PatientDashboardScreen";
+import PopulationAnalyticsScreen from "./components/screens/PopulationAnalyticsScreen";
+import PatientManagementScreen from "./components/screens/PatientManagementScreen";
 
-const queryClient = new QueryClient();
+const App = () => {
+  const [activeSection, setActiveSection] = useState("patient-dashboard");
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+  const renderActiveSection = () => {
+    switch (activeSection) {
+      case "patient-dashboard":
+        return <PatientDashboardScreen />;
+      case "population-analytics":
+        return <PopulationAnalyticsScreen />;
+      case "patient-management":
+        return <PatientManagementScreen />;
+      default:
+        return <PatientDashboardScreen />;
+    }
+  };
+
+  return (
+    <MainLayout
+      activeSection={activeSection}
+      onSectionChange={setActiveSection}
+    >
+      {renderActiveSection()}
+    </MainLayout>
+  );
+};
 
 export default App;

@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Professional Stethoscope Icon -->
+  <defs>
+    <linearGradient id="stethoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1D4ED8"/>
+      <stop offset="100%" style="stop-color:#0F766E"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Stethoscope body -->
+  <path d="M20 12C20 8.686 22.686 6 26 6C29.314 6 32 8.686 32 12V20C32 26.627 37.373 32 44 32C50.627 32 56 37.373 56 44C56 50.627 50.627 56 44 56C37.373 56 32 50.627 32 44V36" 
+        stroke="url(#stethoGrad)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Left earpiece -->
+  <circle cx="16" cy="8" r="4" fill="url(#stethoGrad)"/>
+  <path d="M16 12L20 16" stroke="url(#stethoGrad)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Right earpiece -->
+  <circle cx="36" cy="8" r="4" fill="url(#stethoGrad)"/>
+  <path d="M36 12L32 16" stroke="url(#stethoGrad)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Chest piece -->
+  <circle cx="44" cy="44" r="8" fill="url(#stethoGrad)" opacity="0.8"/>
+  <circle cx="44" cy="44" r="5" fill="white"/>
+  <circle cx="44" cy="44" r="2" fill="url(#stethoGrad)"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Professional Medical Dashboard Background -->
+  <defs>
+    <linearGradient id="dashGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F1F5F9;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="dashGrad2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.02" />
+      <stop offset="100%" style="stop-color:#14B8A6;stop-opacity:0.05" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="800" height="400" fill="url(#dashGrad1)"/>
+  <rect width="800" height="400" fill="url(#dashGrad2)"/>
+  
+  <!-- Medical Grid Pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2E8F0" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="400" fill="url(#grid)"/>
+  
+  <!-- Subtle Medical Icons -->
+  <g opacity="0.02">
+    <!-- Heartbeat Line -->
+    <path d="M50,200 L100,200 L120,150 L140,250 L160,100 L180,300 L200,200 L250,200" 
+          stroke="#1D4ED8" stroke-width="3" fill="none"/>
+    
+    <!-- DNA Helix -->
+    <path d="M600,100 Q620,120 640,100 Q660,80 680,100 Q700,120 720,100" 
+          stroke="#14B8A6" stroke-width="2" fill="none"/>
+    <path d="M600,120 Q620,100 640,120 Q660,140 680,120 Q700,100 720,120" 
+          stroke="#14B8A6" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Floating Elements -->
+  <circle cx="700" cy="80" r="3" fill="#10B981" opacity="0.1"/>
+  <circle cx="100" cy="320" r="4" fill="#3B82F6" opacity="0.1"/>
+  <circle cx="650" cy="350" r="2" fill="#14B8A6" opacity="0.1"/>
+</svg>
