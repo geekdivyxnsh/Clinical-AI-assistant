@@ -81,17 +81,24 @@
 ### 🖥️ **Main Dashboard**
 ![HealthAI Pro Dashboard](https://via.placeholder.com/800x450/22c55e/ffffff?text=HealthAI+Pro+Dashboard)
 *Professional medical dashboard with patient overview, vital signs, and AI assistant integration*
-<img width="1892" height="859" alt="image" src="https://github.com/user-attachments/assets/16838d5b-06ed-4c25-bf15-5c05bffcb732" />
+<img width="1978" height="7444" alt="clinical-ai-assistant-v2-qm2ct23gs vercel app_" src="https://github.com/user-attachments/assets/1f5536d2-a58c-46bb-9e24-265e10479cac" />
+
 
 
 ### 🤖 **AI Assistant Interface**
 ![AI Assistant](https://via.placeholder.com/800x450/1e40af/ffffff?text=Clinical+AI+Assistant)
 *Advanced AI chat interface with medical knowledge base and voice integration*
+<img width="784" height="695" alt="image" src="https://github.com/user-attachments/assets/6e7461c2-cbe1-42b8-9aad-48b748fbf15e" />
+
+
 
 
 ### 📊 **Patient Analytics**
 ![Patient Analytics](https://via.placeholder.com/800x450/0891b2/ffffff?text=Population+Analytics)
 *Comprehensive patient analytics and population health insights*
+<img width="1556" height="859" alt="image" src="https://github.com/user-attachments/assets/36363251-9da9-4ea8-aab8-2a85d0e12d51" />
+<img width="698" height="720" alt="image" src="https://github.com/user-attachments/assets/227c6cac-8a89-4e1e-9f54-2928c380add3" />
+
 
 ---
 
