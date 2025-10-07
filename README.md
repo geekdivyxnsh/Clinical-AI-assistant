@@ -81,10 +81,13 @@
 ### 🖥️ **Main Dashboard**
 ![HealthAI Pro Dashboard](https://via.placeholder.com/800x450/22c55e/ffffff?text=HealthAI+Pro+Dashboard)
 *Professional medical dashboard with patient overview, vital signs, and AI assistant integration*
+<img width="1892" height="859" alt="image" src="https://github.com/user-attachments/assets/16838d5b-06ed-4c25-bf15-5c05bffcb732" />
+
 
 ### 🤖 **AI Assistant Interface**
 ![AI Assistant](https://via.placeholder.com/800x450/1e40af/ffffff?text=Clinical+AI+Assistant)
 *Advanced AI chat interface with medical knowledge base and voice integration*
+
 
 ### 📊 **Patient Analytics**
 ![Patient Analytics](https://via.placeholder.com/800x450/0891b2/ffffff?text=Population+Analytics)
